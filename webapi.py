@@ -8,7 +8,7 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 
-mariadb_connection = mariadb.connect(host='terraform-20181012185152609300000001.cyys4rqwgvrk.eu-west-3.rds.amazonaws.com', port='3306',  user='Nico', password='User.123', database='employees') 
+mariadb_connection = mariadb.connect(host='terraform-20181012185152609300000001.cyys4rqwgvrk.eu-west-3.rds.amazonaws.com', port='3306',  user='xxxxx', password='xxxxxx', database='employees') 
 
 Name = "Bezalel"
 
